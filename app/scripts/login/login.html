@@ -1,0 +1,57 @@
+<div class="conatiner">
+
+<div class="login-wrapper">
+    <div class="page-title text-center">
+        <h3 class="bold">Login to zipcode</h3>
+    </div>
+    <div class="grid simple horizontal-black-gradient">
+
+        <div class="grid-title no-border">
+            <div class="alert alert-danger" role="alert" ng-if="">
+                Incorrect email and password combination.
+            </div>
+            <form id="login-form" class="login-form" name="login-form" novalidate
+                  ng-submit="submit(form)">
+                <div class="row">
+                    <div class="form-group col-sm-12" ng-class="{'has-error': form.emailError}">
+                        <label class="form-label">
+                            <i class="fa fa-envelope"></i>
+                            Email</label>
+                        <div class="controls">
+                            <div class="input-with-icon  right">
+                                <i class=""></i>
+                                <input type="text" name="email" ng-model="form.email" class="form-control"
+                                       autocomplete="off">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group col-sm-12" ng-class="{'has-error': form.passwordError}" >
+                        <label class="form-label">
+                            <i class="fa fa-lock"></i>
+                            Password</label>
+                        <span class="help"></span>
+
+                        <div class="controls">
+                            <div class="input-with-icon  right">
+                                <i class=""></i>
+                                <input type="password" name="password" ng-model="form.password" class="form-control"
+                                       autocomplete="off">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <button class="btn btn-primary btn-cons pull-right" type="submit">Login</button>
+                    </div>
+                    <div class="col-sm-12">
+                        <a class="pull-right" href="/forgotpassword" >Forgot password?</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+</div>

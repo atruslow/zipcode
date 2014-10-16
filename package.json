@@ -1,0 +1,35 @@
+{
+  "name": "zipcode",
+  "version": "0.0.0",
+  "description": "zipcode =======",
+  "main": "server.js",
+  "scripts": {
+    "test": "karma run "
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/boreal-io/zipcode.git"
+  },
+  "author": "atruslow",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/boreal-io/zipcode/issues"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-bower-install": "^1.6.0",
+    "grunt-bower-task": "^0.4.0",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-file-blocks": "^0.3.3",
+    "grunt-include-source": "^0.4.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.9.0",
+    "connect": "^3.2.0",
+    "ejs": "^1.0.0",
+    "express": "^4.9.5",
+    "method-override": "^2.2.0",
+    "mysql": "^2.5.2"
+  }
+}
