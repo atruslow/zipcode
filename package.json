@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/boreal-io/zipcode.git"
+    "url": "https://github.com/atruslow/zipcode.git"
   },
   "author": "atruslow",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/boreal-io/zipcode/issues"
+    "url": "https://github.com/atruslow/zipcode/issues"
   },
   "devDependencies": {
     "grunt": "^0.4.5",

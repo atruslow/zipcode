@@ -2,9 +2,7 @@ var express = require('express');
 var methodOverride = require('method-override');
 var bodyParser = require('body-parser');
 var ejs = require('ejs');
-
-
-
+var router = require('./core/config/router');
 
 var app = express();
 
@@ -20,7 +18,7 @@ app.set('view engine', 'ejs');
 app.set('views', __dirname + '/app/views');
 app.engine('html', ejs.renderFile);
 
-
+router.bootstrap(app);
 
 app.get('/', function (req, res) {
     res.render('index.html');
