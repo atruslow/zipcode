@@ -12,10 +12,8 @@ app.controller('dashboardController',
                 lat: $scope.latInput,
                 lon: $scope.lonInput,
                 n: $scope.nInput
-
             }).then(
                 function (data) {
-                    console.log(data);
                     $scope.cities = data;
                 },
                 function(data, status){
